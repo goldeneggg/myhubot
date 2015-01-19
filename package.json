@@ -1,0 +1,33 @@
+{
+  "name": "goldeneggg-mybot",
+  "version": "0.1.1",
+  "private": true,
+  "author": "goldeneggg",
+  "keywords": [
+    "hubot",
+    "bot"
+  ],
+  "description": "Oreore bot for @goldeneggg",
+  "licenses": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goldeneggg/mybot.git"
+  },
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "cron": "^1.0.4",
+    "dockerode": "^2.0.3",
+    "hubot": "^2.6.0",
+    "hubot-irc": "^0.2.7",
+    "hubot-scripts": "^2.5.0",
+    "hubot-slack": "^2.2.0",
+    "moment": "^2.8.3",
+    "parse-rss": "^1.0.3",
+    "request": "^2.42.0",
+    "time": "^0.11.0"
+  },
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": ">= 1.1.x"
+  }
+}
