@@ -21,6 +21,8 @@ class Rss
     "hnbc": "http://hnapp.com/rss?q=bitcoin%20score%3E50"
     "hngoogle": "http://hnapp.com/rss?q=google%20score%3E50"
     "hnamazon": "http://hnapp.com/rss?q=amazon%20score%3E50"
+    "hnruby": "http://hnapp.com/rss?q=ruby%20score%3E50"
+    "hnrails": "http://hnapp.com/rss?q=rails%20score%3E50"
     "hn": "http://hnapp.com/rss?q=score%3E500"
     "changelog": "http://feeds.5by5.tv/changelog"
     "iteb": "http://feeds.feedburner.com/IT-eBooks"
