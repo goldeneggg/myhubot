@@ -128,7 +128,7 @@ module.exports = (robot) ->
       m = ""
       $('ol.repo-list > li').each (i, e) ->
         $$ = cheerio.load e
-        repo = "https://github.com/" + $$('h3.repo-list-name > a').attr('href')
+        repo = "https://github.com" + $$('h3.repo-list-name > a').attr('href')
         desc = Str.trimBlanks $$('p.repo-list-description').text()
         meta = Str.trimBlanks $$('p.repo-list-meta').text()
         star = Str.trim meta.replace(/stars.+/g, '').split('•')[1]
