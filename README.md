@@ -29,6 +29,15 @@ $ cd myhubot
 $ npm install
 ```
 
+* If your install process fail, please try following confirmation
+
+```bash
+$ ls -la ~/.npm
+drwxr-xr-x   2 root   staff    68  4  4 14:45 _locks  # user "root" is unexpected,
+
+$ sudo chown -R $USER ~/.npm/_locks
+```
+
 
 ## Usage
 
