@@ -5,10 +5,14 @@
 ### Node.js
 
 ```bash
-$ wget http://nodejs.org/dist/v0.12.0/node-v0.12.0-linux-x64.tar.gz
-$ tar zxf node-v0.12.0-linux-x64.tar.gz
-$ cd tar zxf node-v0.12.0-linux-x64
-$ sudo cp -r bin include lib share /usr/local/
+$ wget http://nodejs.org/dist/v0.12.2/node-v0.12.2-linux-x64.tar.gz
+
+# (for mac)
+$ wget http://nodejs.org/dist/v0.12.2/node-v0.12.2-darwin-x64.tar.gz
+
+$ tar zxf node-v0.12.2-linux-x64.tar.gz
+$ cd node-v0.12.2-linux-x64
+$ sudo cp -R bin include lib share /usr/local/
 ```
 
 ### Coffeescript
@@ -20,8 +24,8 @@ $ sudo npm install -g coffee-script
 ### This bot
 
 ```bash
-$ git clone https://github.com/goldeneggg/mybot.git
-$ cd mybot
+$ git clone https://github.com/goldeneggg/myhubot.git
+$ cd myhubot
 $ npm install
 ```
 
