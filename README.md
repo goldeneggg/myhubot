@@ -5,14 +5,10 @@
 ### Node.js
 
 ```bash
-$ wget http://nodejs.org/dist/v0.12.2/node-v0.12.2-linux-x64.tar.gz
-
-# (for mac)
-$ wget http://nodejs.org/dist/v0.12.2/node-v0.12.2-darwin-x64.tar.gz
-
-$ tar zxf node-v0.12.2-linux-x64.tar.gz
-$ cd node-v0.12.2-linux-x64
-$ sudo cp -R bin include lib share /usr/local/
+$ wget http://nodejs.org/dist/v0.10.38/node-v0.10.38-linux-x64.tar.gz
+$ tar zxf node-v0.10.38-linux-x64.tar.gz
+$ cd tar zxf node-v0.10.38-linux-x64
+$ sudo cp -r bin include lib share /usr/local/
 ```
 
 ### Coffeescript
