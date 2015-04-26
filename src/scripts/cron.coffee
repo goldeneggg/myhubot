@@ -62,22 +62,28 @@ module.exports = (robot) ->
 #        common.ghTrend('daily', '&l=go', null, room)
 
     jobMorningStock1: new CronJob
-      cronTime: "00 03 11 * * 1-5"
+      cronTime: "00 00 10 * * 1-5"
       timeZone: "Asia/Tokyo"
       onTick: ->
         common.stock('9424', null, room)
 
     jobMorningStock2: new CronJob
-      cronTime: "00 04 11 * * 1-5"
+      cronTime: "00 01 10 * * 1-5"
       timeZone: "Asia/Tokyo"
       onTick: ->
         common.stock('2491', null, room)
 
     jobMorningStock3: new CronJob
-      cronTime: "00 05 11 * * 1-5"
+      cronTime: "00 02 10 * * 1-5"
       timeZone: "Asia/Tokyo"
       onTick: ->
-        common.stock('3625', null, room)
+        common.stock('7612', null, room)
+
+    jobMorningStock4: new CronJob
+      cronTime: "00 03 10 * * 1-5"
+      timeZone: "Asia/Tokyo"
+      onTick: ->
+        common.stock('2489', null, room)
 
     jobAfternoonBitcoin: new CronJob
       cronTime: "00 00 13 * * *"
