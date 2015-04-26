@@ -46,7 +46,7 @@ while true
 do
   ps | awk '{print $1}' | grep ${HUBOT_PID} > /dev/null
 
-  if [ $? -eq 0 ]
+  if (( $? == 0 ))
   then
     echo "Hubot is running."
   else
